@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+}
+
+.main {
+
+    background-color:#131313 ;
+} 
+
+.backgroundimage {
+    display: flex;
+    position: relative;
+    padding-bottom: 5rem;
+    color: #ffffff;
+    background-color: #131313;
+    max-width: 1150px;
+    height: 584px;
+    background-size: 1150px 584px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/l/images/heroes/iphone-se/hero__dvsxv8smkkgi_largetall.jpg);
+    top: 5.4rem;
+    left: 3rem;
+    
+}
+
+.backgroundimage h2 {
+
+    display: flex;
+    position: absolute;
+    font-size: 3.5rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    left: 27.5rem;
+    top: 0.7rem;
+}
+
+.backgroundimage p {
+
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 1.8rem;
+    left: 27.5rem;
+    top: 5rem;
+}
+
+.backgroundimage a {
+
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 1.3rem;
+    left: 30.8rem;
+    top: 10rem;
+}
+
+.section {
+
+    display: flex;
+    position: relative;
+    background-color:#FAFAFA;
+    padding-top: 7rem;
+    padding-bottom: 1.5rem ;
+}
+
+.section h2 {
+
+    display: flex;
+    position: relative;
+    font-size: 3.5rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    top: -3.5rem;
+    left: 30.6rem;
+}
+
+.section p {
+
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    top: 1rem;
+    left: 9rem;
+}
+
+.section a {
+
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 1.3rem;
+    left: -11rem;
+    top: 4rem;
+}
+
+.section1 {
+
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    width: 1263px;
+    height: 445px;
+    background-size: 2100px 435px;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/l/images/heroes/iphone-11-spring/hero__dvsxv8smkkgi_large.jpg);
+}
+
+
+.section2 {
+
+    background-color: #ffffff;
+    width: 1263px;
+    height: 634px;
+    background-size: 3010px 624px;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/l/images/heroes/ipad-pro/hero__dvsxv8smkkgi_large.jpg);
+}
+
+.section2 h2 {
+
+    display: flex;
+    position: absolute;
+    font-size: 3.5rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    top: 86rem;
+    left: 32rem;
+}
+
+.section2 p {
+
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 1.8rem;
+    top: 90.4rem;
+    left: 29.5rem;
+}
+
+.section2 a {
+
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 1.3rem;
+    top: 96rem;
+    left: 34rem;
+}
+
+.mainsection {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.8rem;
+    
+}
+ .container1 {
+
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #F2F2F2;  
+    width: 631.5px;
+    height: 386px; 
+    padding-top: 13rem;
+
+ }
+
+.section3 {
+ 
+    width: 631.5px;
+    height: 386px;
+    background-size: 530px 386px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/l/images/promos/imac/tile__cauwwcyyn9hy_large.jpg);
+}
+
+.section3 h2 {
+    
+    display: flex;
+    position: relative;
+    font-size: 2.5rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    top: -9.5rem;
+    left: 13rem;
+}
+
+.section3 p {
+
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 1.3rem;
+    top: -9rem;
+    left: 7rem;
+}
+
+.section3 a {
+
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 1.1rem;
+    top: -8rem;
+    left: 11.5rem;
+}
+
+
+.container2 {
+
+    
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #FAFAFA; 
+    width: 601.5px;
+    height: 386px; 
+    padding-top: 13rem;
+}
+
+
+.section4 {
+
+    width: 601.5px;
+    height: 386px;
+    background-size: 706.5px 386px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/la/home/images/promos/iphone-switch/tile__cauwwcyyn9hy_large.jpg);
+}
+
+.section4 h2 {
+    
+    display: flex;
+    position: absolute;
+    font-size: 2.5rem;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    top: 125.5rem;
+    left: 50.5rem;
+}
+
+.section4 p {
+
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 1.3rem;
+    top:  129rem;
+    left: 48rem;
+}
+
+.section4 a {
+
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    color: #2997FF;
+    font-size: 1.1rem;
+    top: 133rem;
+    left: 57rem;
+}
+
