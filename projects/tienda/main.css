@@ -1,0 +1,534 @@
+
+* { 
+    margin: 0rem;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+.header {
+
+    z-index: 5;
+    padding: 1.9rem;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #1B171C;
+    font-family: "Lato", sans-serif;  
+}
+
+.ul {
+
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.li {
+
+    border-radius: 0.438rem;
+    font-family: "Lato", sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+.a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.title {
+   
+    position: absolute;
+    color: #fafafa;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2cm;
+    text-align: center;
+    top: 140px;
+    left: 468px;
+}
+
+.overtitle{
+
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0.5;
+}
+
+title:hover .overtitle {
+    opacity: 0.3;
+}
+
+.overti {
+
+    width: 20rem;
+    height: 6rem;
+    color: #EBEBEB ;
+}
+
+.background {
+    width: 100%;
+    height: 680px;
+}
+
+
+.seccion {
+
+    padding: 230px;
+    padding-bottom: 145px;
+    background-color: #FAFAFF ;
+    color: #666 ;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+.subtitle {
+
+     display: flex;
+     position: absolute;
+     top: 46.25rem;
+     left: 32.5rem;
+     font-family: "Lato", sans-serif;
+     font-size: 21.5px;
+}
+
+.subtitle::after {
+
+    content: " ";
+    display: block;
+    position: inherit;
+    background-color: #666;
+    height: 2px;
+    width: 50px;
+    margin: 120px auto;
+    top: 0rem;
+    left: 5.7rem;
+}
+
+
+
+.div {
+
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.div img {
+    width: 39.480rem;
+    height: 29rem;
+}
+
+.div1 {
+    display: flex;
+}
+
+.div2 {
+    display: flex;
+}
+
+.overlay {
+
+    position: absolute;
+    transition: 0.3s;
+    opacity: 0; 
+}
+
+.div1:hover .overlay {
+    opacity: 0.5;
+}
+
+.overlayleft {
+
+    width: 39.480rem;
+    height: 29rem;
+    background-color:#1C1C1C; 
+}
+
+.div2:hover .overlay {
+    opacity: 0.6;
+}
+
+
+.overlayright {
+
+    width: 39.480rem;
+    height: 29rem;
+    background-color: #1C1C1C ; 
+}
+
+
+
+.h4 {
+
+    z-index: 2;
+    background-color: transparent;
+    color: #F5F5F5;
+    display: flex;
+    position: absolute;
+    font-size: 22px;
+    top: 1430px;
+    left: 220px;
+}
+
+.h42 {
+
+    z-index: 2;
+    background-color: transparent;
+    color: #F5F5F5;
+    display: flex;
+    position: absolute;
+    font-size: 22px;
+    top: 1430px;
+    left: 855px;
+}
+
+.button1 {
+
+    width: 12.813rem;
+    height: 2.5rem;
+    border-style: solid;
+    border-color: #F5F5F5   ;
+    color: #F5F5F5  ;
+    background-color: transparent;
+    border-width: 0.094rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    top: 1500px;
+    left: 210px;
+}
+
+.button2 {
+
+    text-align: center;
+    width: 12.813rem;
+    height: 2.5rem;
+    border-style: solid;
+    border-color: #f5f5f5;
+    color: #f5f5f5 ;
+    background-color: transparent;
+    border-width: 0.094rem;
+    font-family: "Lato", sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    top: 1500px;
+    left: 885px;
+}
+
+.button1:hover {
+    transition: 0.6s;
+    background-color:#f5f5f5;
+    color: #171601;
+}
+
+.button2:hover{
+    transition: 0.6s;
+    background-color:#f5f5f5;
+    color: #171601;
+}
+
+
+.footer {
+    padding: 14.063rem;
+    background-color: #BAB7B3;
+}
+
+.tienda {
+
+    display: flex;
+    position: relative;
+    top: -90px;
+    left: 290px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.facebook {
+
+    display: flex;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    top: 1rem;
+    left: 19.2rem;
+}
+
+
+.instagram {
+
+    display: flex;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    top: 1rem;
+    left: 20.4rem;
+}
+
+.overicon {
+
+    position: relative;
+    transition: 0.1s;
+    opacity: 0;
+    border-radius: 2.7px;
+}
+
+.li1:hover .overicon {
+    opacity: 0.35;
+}
+
+.overfb {
+
+    width: 1.8rem;
+    height: 1.8rem;
+    top: -0.9rem;
+    left: 19.3rem;
+    background-color:#1C1C1C ; 
+}
+
+.li2:hover .overicon {
+    opacity: 0.35;
+}
+
+.overig {
+
+    width: 1.8rem;
+    height: 1.8rem;
+    top: -0.9rem;
+    left: 20.48rem;
+    border-radius: 10px;
+    background-color:#1C1C1C; 
+}
+
+.® {
+
+    width: 50%;
+    display: flex;
+    position: relative;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3mm;
+    font-weight: 700;
+    top: 8.5rem;
+    left: 19.5rem;
+    color: #FFFFFF;
+}
+
+.headimage {
+
+    background-image: url("http://www.tiendadecafe.com.ar/images/background/bg.jpg");
+    padding: 8.5rem;
+    padding-top: 4.77rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-color: #cccccc;
+    color: #FFFFFF;
+}
+
+.headtitle {
+
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.cafe {
+
+    padding: 7.5rem;
+    padding-top: 5.5rem;
+    font-family: "Lato", sans-serif;
+    background-color: #FFFFFF;
+    color: #666666;
+}
+
+.cafe img {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    left: -1rem;
+}
+
+.cafe h4 {
+
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+.cafe h4::after {
+
+    content: " ";
+    display: block;
+    position: relative;
+    background-color: #666;
+    height: 2px;
+    width: 68rem;
+    top: 1.2rem;
+    left: -2rem; 
+}
+
+.container {
+
+    display: flex;
+    position: initial;
+    flex-direction: column;
+
+}
+
+.class1 {
+    display: flex;
+    font-size: 0.875rem;
+    justify-content: space-between;
+}
+
+.class1 h5 {
+    
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    left: 3rem;
+}
+
+
+.class2 {
+    display: flex;
+    font-size: 0.875rem;
+}
+
+.class2 h5 {
+
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    left: 3rem;
+}
+
+.class3 {
+    display: flex;
+    font-size: 0.875rem;
+}
+
+.class3 h5 {
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    left: 3rem;
+}
+
+
+.section {
+
+    padding: 10rem;
+    padding-bottom: 4.5rem;
+    background-color: #FFFFFF ;
+    color: #666;
+}
+
+.section h2 {
+
+    display: flex;
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-size: 1.375rem;
+    letter-spacing: 4px;
+    top: 19.5rem;
+    left: 26.5rem;
+}
+
+section h2::after {
+
+    content: " ";
+    display: block;
+    position: relative;
+    background-color: #666;
+    height: 2px;
+    width: 3rem;
+    top: 4.2rem;
+    left: -14rem;
+}
+
+
+
+.input {
+
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-color: #9E9E9E;
+    border: 2px solid #999;
+    width: 100%;
+    height: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+.textarea {
+
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-color: #9E9E9E;
+    border: 2px solid #999;
+    width: 100%;
+    height: 105px;
+    font-family: "Lato", sans-serif;
+}
+
+
+.submit {
+    
+    background-color: #000000;
+    border: 2px solid;
+    color: white;
+    height: 60px;
+    width: 100.9%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+
+
+h1,h2,h3,h4,h5,p  {
+    font-family: "Lato", sans-serif;
+}
+  
+
+
+
